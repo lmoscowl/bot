@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 # Загрузка токенов из файла .env
 load_dotenv()
 
-API_TOKEN = os.getenv("API_TOKEN")
+API_TOKEN = os.getenv("7931009664:AAHwqyiEOSkuGEvCZ1iSCUtUiELBMT9Po7Q")
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
